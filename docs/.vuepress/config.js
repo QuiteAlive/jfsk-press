@@ -11,7 +11,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "你好， 开发者 ！",
   description: "这是交发数科的前端开发文档",
-  base: "/",
+  base: "/jfsk-press/",
   head,
 
   theme: defaultTheme({

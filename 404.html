@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.8" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="application-name" content="VuePress"><meta name="apple-mobile-web-app-title" content="VuePress"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#3eaf7c"><meta name="msapplication-TileColor" content="#3eaf7c"><meta name="theme-color" content="#3eaf7c"><title>你好， 开发者 ！</title><meta name="description" content="这是交发数科的前端开发文档">
+    <link rel="preload" href="/assets/style-DCKbivr-.css" as="style"><link rel="stylesheet" href="/assets/style-DCKbivr-.css">
+    <link rel="modulepreload" href="/assets/app-CxeCF5UJ.js"><link rel="modulepreload" href="/assets/404.html-CSsbpP3s.js">
+    <link rel="prefetch" href="/assets/index.html-C3m684pg.js" as="script"><link rel="prefetch" href="/assets/get-started.html-zO5gDyyt.js" as="script"><link rel="prefetch" href="/assets/test.html-Dl01Gf2e.js" as="script"><link rel="prefetch" href="/assets/bar.html-C8E_v6Uc.js" as="script"><link rel="prefetch" href="/assets/line.html-D3NwYbOq.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>这是一个 404 页面</blockquote><a class="route-link" href="/">返回首页</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CxeCF5UJ.js" defer></script>
+  </body>
+</html>
